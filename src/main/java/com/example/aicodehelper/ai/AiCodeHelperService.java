@@ -4,6 +4,7 @@ import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.Result;
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.spring.AiService;
+import reactor.core.publisher.Flux;
 
 import java.util.List;
 
