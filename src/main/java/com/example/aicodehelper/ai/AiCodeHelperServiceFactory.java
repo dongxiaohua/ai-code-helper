@@ -36,7 +36,7 @@ public class AiCodeHelperServiceFactory {
     private StreamingChatModel qwenStreamingChatModel;
 
     /**
-     * 调用AIService.create创建AI service的实现类，背后原理李永乐Java反射机制创建了一个实现接口的代理对象，
+     * 调用AIService.create创建AI service的实现类，背后原理利用了Java反射机制创建了一个实现接口的代理对象，
      * 代理对象负责输入输出的转换。
      * @return
      */

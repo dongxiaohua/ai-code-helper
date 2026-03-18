@@ -19,5 +19,6 @@ langchain4j:
       streaming-chat-model:
         model-name: qwen-max
         api-key: ${DASH_SCOPE_API_KEY}
+#智谱模型
 bigmodel:
   api-key: ${BIG_MODEL_API_KEY}
